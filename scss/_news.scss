@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tituloNews {
+    text-align: center;
+    font-size: 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.videoNews {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    margin: 4rem;
+}
+
+.seccionInfo {
+    width: 100%;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.infoUno {
+    display: flex;
+    align-items: center;
+}
+
+.infoDos {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
