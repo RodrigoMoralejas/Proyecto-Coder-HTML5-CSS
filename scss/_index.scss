@@ -11,13 +11,17 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+p {
+    text-align: center;
+}
+
 .span {
     text-align: center;
     padding: 2px 15px 2px 15px;
     border-radius: 10px;
     background-color: $colorSecundario;
     margin-left: 1rem;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 
@@ -46,54 +50,52 @@ h1 {
 
 /********** SECTION **********/
 .sectionCards {
-    margin: 10rem 0rem;
+    margin: 4rem 0rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .card1 {
-    overflow: hidden;
-    border: 2px black solid;
-    height: 500px;
+    height: 400x;
     width: 300px;
-    background-color: chartreuse;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
 }
 
 .card2 {
-    overflow: hidden;
-    border: 2px black solid;
-    height: 500px;
+    height: 400px;
     width: 300px;
-    background-color: crimson;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
 }
 
 .card3 {
-    border: 2px black solid;
-    height: 500px;
+    height: 400px;
     width: 300px;
-    overflow: hidden;
-    background-color: aqua;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
+.topCard {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 170px;
+    width: 300px;
+}
 
 /********** FOOTER **********/
 footer {
-    padding: 3rem;
     background-color: $colorPrincipal;
 }
 
 .elementosFooter {
-    margin: 5rem;
+    padding: 6rem 0rem 2rem 0rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -101,10 +103,20 @@ footer {
 }
 
 .elementosFooter a {
+    font-size: 1rem;
     color: $colorSecundario;
     text-decoration: none;
 }
 
-p {
+.socialNetworks {
+    color: $colorSecundario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.copyRight {
+    color: $colorSecundario;
+    display: flex;
+    justify-content: center;
 }
