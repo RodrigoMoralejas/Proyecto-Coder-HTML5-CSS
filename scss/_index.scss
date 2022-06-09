@@ -11,10 +11,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-p {
-    text-align: center;
-}
-
 .span {
     text-align: center;
     padding: 2px 15px 2px 15px;
@@ -23,7 +19,6 @@ p {
     margin-left: 1rem;
     color: whitesmoke;
 }
-
 
 .navBar {
     background-color: $colorPrincipal;
@@ -37,11 +32,6 @@ p {
     color: black;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
 /********** MAIN **********/
 .carousel-inner img {
     object-fit: cover;
@@ -50,13 +40,14 @@ h1 {
 
 /********** SECTION **********/
 .sectionCards {
+    width: 100%;
     margin: 4rem 0rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.card1 {
+.cardBody {
     height: 400x;
     width: 300px;
     display: flex;
@@ -65,28 +56,45 @@ h1 {
     flex-direction: column;
 }
 
-.card2 {
-    height: 400px;
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card3 {
-    height: 400px;
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
 .topCard {
     border-radius: 10px;
     overflow: hidden;
     height: 170px;
     width: 300px;
+}
+
+.botCard {
+    height: 270px;
+}
+
+.botCard h5 {
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.botCard h4 {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight:300;
+}
+
+.botCard p {
+    font-size: 0.8rem;
+}
+
+.botCard a {
+    text-decoration: none;
+    color:$colorSecundario;
+    font-size: 0.8rem;
+    line-height: 0;
+}
+
+.botCard a span {
+    background-color: black;
+    padding: 0 0.2rem 0.1rem 0.2rem;
 }
 
 /********** FOOTER **********/
