@@ -8,7 +8,10 @@ body {
   background-color: #fffcf2;
   font-family: 'Roboto', sans-serif; }
 
-.span {
+.navBar {
+  background-color: #252422; }
+
+.spanHome {
   text-align: center;
   padding: 2px 15px 2px 15px;
   border-radius: 10px;
@@ -16,14 +19,11 @@ body {
   margin-left: 1rem;
   color: whitesmoke; }
 
-.navBar {
-  background-color: #252422; }
-
 .nav-item a {
   color: #eb5e28; }
 
-.nav-link {
-  color: black; }
+.buttonHome {
+  background-color: #eb5e28; }
 
 /********** MAIN **********/
 .carousel-inner img {
@@ -33,7 +33,7 @@ body {
 .textMain p {
   text-align: center;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: bolder;
   margin: 2rem; }
 
 /********** SECTION **********/
@@ -89,10 +89,12 @@ body {
 
 /********** FOOTER **********/
 footer {
+  height: 45vh;
+  line-height: 0;
   background-color: #252422; }
 
 .elementsFooter {
-  padding: 10em 0rem 2rem 0rem;
+  height: 8rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -111,7 +113,7 @@ footer {
   align-items: center; }
 
 .socialNetworks svg {
-  width: 35px;
+  width: 30px;
   margin: 0 0.5rem; }
 
 .copyRight {
@@ -124,7 +126,7 @@ footer {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1.2rem; }
+  margin: 2rem; }
 
 .imgNews {
   width: 100%; }

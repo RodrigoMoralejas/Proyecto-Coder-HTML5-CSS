@@ -11,7 +11,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.span {
+.navBar {
+    background-color: $colorPrincipal;
+}
+
+.spanHome {
     text-align: center;
     padding: 2px 15px 2px 15px;
     border-radius: 10px;
@@ -20,16 +24,12 @@ body {
     color: whitesmoke;
 }
 
-.navBar {
-    background-color: $colorPrincipal;
-}
-
 .nav-item a {
     color: $colorSecundario;
 }
 
-.nav-link {
-    color: black;
+.buttonHome {
+    background-color: $colorSecundario;
 }
 
 /********** MAIN **********/
@@ -41,7 +41,7 @@ body {
 .textMain p {
     text-align: center;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: bolder;
     margin: 2rem;
 }
 
@@ -107,11 +107,13 @@ body {
 
 /********** FOOTER **********/
 footer {
+    height: 45vh;
+    line-height: 0;
     background-color: $colorPrincipal;
 }
 
 .elementsFooter {
-    padding: 10em 0rem 2rem 0rem;
+    height: 8rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -133,7 +135,7 @@ footer {
 }
 
 .socialNetworks svg {
-    width: 35px;
+    width: 30px;
     margin: 0 0.5rem;
 }
 
