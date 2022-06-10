@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -6,7 +6,7 @@
 /********** HEADER **********/
 body {
   background-color: #fffcf2;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .span {
   text-align: center;
@@ -30,17 +30,23 @@ body {
   object-fit: cover;
   height: 100vh; }
 
+.textMain p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 2rem; }
+
 /********** SECTION **********/
 .sectionCards {
   width: 100%;
-  margin: 4rem 0rem;
+  margin-top: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center; }
 
 .cardBody {
-  height: 400x;
-  width: 300px;
+  height: 350x;
+  width: 400px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -49,11 +55,12 @@ body {
 .topCard {
   border-radius: 10px;
   overflow: hidden;
-  height: 170px;
-  width: 300px; }
+  height: 200px;
+  width: 400px; }
 
 .botCard {
-  height: 270px; }
+  height: 270px;
+  width: 400px; }
 
 .botCard h5 {
   color: black;
@@ -84,41 +91,56 @@ body {
 footer {
   background-color: #252422; }
 
-.elementosFooter {
-  padding: 6rem 0rem 2rem 0rem;
+.elementsFooter {
+  padding: 10em 0rem 2rem 0rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style: none; }
 
-.elementosFooter a {
-  font-size: 1rem;
+.elementsFooter a {
+  font-size: 1.2rem;
   color: #eb5e28;
   text-decoration: none; }
 
 .socialNetworks {
+  margin: 2rem;
   color: #eb5e28;
   display: flex;
   justify-content: center;
   align-items: center; }
 
+.socialNetworks svg {
+  width: 35px;
+  margin: 0 0.5rem; }
+
 .copyRight {
+  font-weight: bold;
   color: #eb5e28;
   display: flex;
   justify-content: center; }
 
-.tituloNews {
+.titleNews {
   text-align: center;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem; }
 
-img {
+.imgNews {
   width: 100%; }
 
-h3 {
+.subtitleNews {
+  margin: 2rem;
+  text-align: center;
+  font-weight: bold; }
+
+.textNews {
+  font-weight: 400;
+  font-size: 1.5rem;
   text-align: center; }
 
 .videoNews {
-  border-bottom: 3px black solid;
+  border-bottom: 2px black solid;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -127,24 +149,38 @@ h3 {
 .videoNews iframe {
   border-radius: 10px; }
 
-.seccionInfo {
+.sectionInfo {
   margin-top: 2rem;
   width: 100%; }
 
-.imagen {
+.imgSection {
+  border-radius: 2px;
   width: 50%; }
 
-.infoUno {
+.infoOne {
   display: flex;
   align-items: center; }
 
-.infoDos {
+.info p {
+  margin: 1rem;
+  font-size: 1.2rem;
+  text-align: center; }
+
+.infoTwo {
   display: flex;
   align-items: center; }
 
 .info {
   display: flex;
   flex-direction: column; }
+
+.linkYoutube {
+  color: #eb5e28;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer; }
 
 .containerVideos {
   margin: 2rem 0rem;

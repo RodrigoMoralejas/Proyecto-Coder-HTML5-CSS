@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 /********** HEADER **********/
 body {
     background-color: $colorBody;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .span {
@@ -38,18 +38,25 @@ body {
     height: 100vh;
 }
 
+.textMain p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2rem;
+}
+
 /********** SECTION **********/
 .sectionCards {
     width: 100%;
-    margin: 4rem 0rem;
+    margin-top: 6rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .cardBody {
-    height: 400x;
-    width: 300px;
+    height: 350x;
+    width: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -59,12 +66,13 @@ body {
 .topCard {
     border-radius: 10px;
     overflow: hidden;
-    height: 170px;
-    width: 300px;
+    height: 200px;
+    width: 400px;
 }
 
 .botCard {
     height: 270px;
+    width: 400px;
 }
 
 .botCard h5 {
@@ -78,7 +86,7 @@ body {
 .botCard h4 {
     color: gray;
     font-size: 1.2rem;
-    font-weight:300;
+    font-weight: 300;
 }
 
 .botCard p {
@@ -87,7 +95,7 @@ body {
 
 .botCard a {
     text-decoration: none;
-    color:$colorSecundario;
+    color: $colorSecundario;
     font-size: 0.8rem;
     line-height: 0;
 }
@@ -102,28 +110,35 @@ footer {
     background-color: $colorPrincipal;
 }
 
-.elementosFooter {
-    padding: 6rem 0rem 2rem 0rem;
+.elementsFooter {
+    padding: 10em 0rem 2rem 0rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
 }
 
-.elementosFooter a {
-    font-size: 1rem;
+.elementsFooter a {
+    font-size: 1.2rem;
     color: $colorSecundario;
     text-decoration: none;
 }
 
 .socialNetworks {
+    margin: 2rem;
     color: $colorSecundario;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.socialNetworks svg {
+    width: 35px;
+    margin: 0 0.5rem;
+}
+
 .copyRight {
+    font-weight: bold;
     color: $colorSecundario;
     display: flex;
     justify-content: center;

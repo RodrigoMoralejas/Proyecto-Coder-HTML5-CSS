@@ -1,42 +1,60 @@
-.tituloNews {
+.titleNews {
     text-align: center;
     font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
 }
 
-img {
+.imgNews{
     width: 100%;
 }
 
-h3 {
+.subtitleNews {
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textNews {
+    font-weight: 400;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .videoNews {
-    border-bottom: 3px black solid;
+    border-bottom: 2px black solid;
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .videoNews iframe {
     border-radius: 10px;
 }
 
-.seccionInfo {
+.sectionInfo {
     margin-top: 2rem;
     width: 100%;
 }
 
-.imagen {
+.imgSection{
+    border-radius: 2px;
     width: 50%;
 }
 
-.infoUno {
+.infoOne {
     display: flex;
     align-items: center;
 }
 
-.infoDos {
+.info p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.infoTwo {
     display: flex;
     align-items: center;
 }
