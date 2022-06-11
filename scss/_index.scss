@@ -38,6 +38,10 @@ body {
     height: 100vh;
 }
 
+.textMain {
+    padding: 2rem
+}
+
 .textMain p {
     text-align: center;
     font-size: 2rem;
@@ -45,10 +49,21 @@ body {
     margin: 2rem;
 }
 
+.lineDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.lineDiv hr {
+    width: 95%;
+    border: 2px $colorPrincipal solid;
+}
+
+
 /********** SECTION **********/
 .sectionCards {
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,12 +82,12 @@ body {
     border-radius: 10px;
     overflow: hidden;
     height: 200px;
-    width: 400px;
+    width: 380px;
 }
 
 .botCard {
     height: 270px;
-    width: 400px;
+    width: 380px;
 }
 
 .botCard h5 {
@@ -107,12 +122,13 @@ body {
 
 /********** FOOTER **********/
 footer {
-    height: 45vh;
+    height: 40vh;
     line-height: 0;
     background-color: $colorPrincipal;
 }
 
 .elementsFooter {
+    padding-top: 4rem;
     height: 8rem;
     display: flex;
     justify-content: space-evenly;
@@ -127,7 +143,7 @@ footer {
 }
 
 .socialNetworks {
-    margin: 2rem;
+    margin: 3rem;
     color: $colorSecundario;
     display: flex;
     justify-content: center;

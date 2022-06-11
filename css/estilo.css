@@ -30,16 +30,27 @@ body {
   object-fit: cover;
   height: 100vh; }
 
+.textMain {
+  padding: 2rem; }
+
 .textMain p {
   text-align: center;
   font-size: 2rem;
   font-weight: bolder;
   margin: 2rem; }
 
+.lineDiv {
+  display: flex;
+  justify-content: center; }
+
+.lineDiv hr {
+  width: 95%;
+  border: 2px #252422 solid; }
+
 /********** SECTION **********/
 .sectionCards {
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -56,11 +67,11 @@ body {
   border-radius: 10px;
   overflow: hidden;
   height: 200px;
-  width: 400px; }
+  width: 380px; }
 
 .botCard {
   height: 270px;
-  width: 400px; }
+  width: 380px; }
 
 .botCard h5 {
   color: black;
@@ -89,11 +100,12 @@ body {
 
 /********** FOOTER **********/
 footer {
-  height: 45vh;
+  height: 40vh;
   line-height: 0;
   background-color: #252422; }
 
 .elementsFooter {
+  padding-top: 4rem;
   height: 8rem;
   display: flex;
   justify-content: space-evenly;
@@ -106,7 +118,7 @@ footer {
   text-decoration: none; }
 
 .socialNetworks {
-  margin: 2rem;
+  margin: 3rem;
   color: #eb5e28;
   display: flex;
   justify-content: center;
@@ -122,6 +134,7 @@ footer {
   display: flex;
   justify-content: center; }
 
+/********** NEWS **********/
 .titleNews {
   text-align: center;
   font-size: 3rem;
@@ -142,7 +155,6 @@ footer {
   text-align: center; }
 
 .videoNews {
-  border-bottom: 2px black solid;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -156,7 +168,7 @@ footer {
   width: 100%; }
 
 .imgSection {
-  border-radius: 2px;
+  border-radius: 1px;
   width: 50%; }
 
 .infoOne {
@@ -176,7 +188,9 @@ footer {
   display: flex;
   flex-direction: column; }
 
+/********** VIDEOS **********/
 .linkYoutube {
+  margin-top: 2rem;
   color: #eb5e28;
   font-size: 2rem;
   text-decoration: none;
@@ -185,7 +199,7 @@ footer {
   cursor: pointer; }
 
 .containerVideos {
-  margin: 2rem 0rem;
+  margin: 2rem 0rem 4rem 0rem;
   display: grid;
   justify-items: center;
   align-items: center;

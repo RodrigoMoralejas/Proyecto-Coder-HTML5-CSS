@@ -1,5 +1,7 @@
+/********** VIDEOS **********/
 
 .linkYoutube {
+    margin-top: 2rem;
     color: $colorSecundario;
     font-size: 2rem;
     text-decoration: none;
@@ -9,7 +11,7 @@
 }
 
 .containerVideos {
-    margin: 2rem 0rem;
+    margin: 2rem 0rem 4rem 0rem;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -20,5 +22,4 @@
 
 .containerVideos iframe {
     border-radius: 10px;
-
 }
