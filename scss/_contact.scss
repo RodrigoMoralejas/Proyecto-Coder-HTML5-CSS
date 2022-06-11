@@ -1,0 +1,25 @@
+
+.formContact {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.formContact input {
+    width: 25%;
+}
+
+.formContact label {
+    margin-top: 1rem;
+}
+
+.formContact textarea {
+    margin-top: 2rem;
+}
+
+.buttonsContact {
+    margin-top: 1rem;
+    display: flex;
+    width: 30%;
+}
