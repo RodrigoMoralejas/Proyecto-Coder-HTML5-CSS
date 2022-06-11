@@ -17,31 +17,32 @@
     <!---------- HEADER ---------->
     <div class="container mw-100 p-0">
         <header class="navBar d-flex flex-wrap align-items-center justify-content-center py-3">
-            <a href="/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+            <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
                 <span class="spanHome fs-2">Roland</span>
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/index.html" class="buttonHome nav-link active"
-                        aria-current="page">Home</a>
+                <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">Home</a>
                 </li>
-                <li class="nav-item"><a href="./paginas/news.html" class="nav-link">News</a></li>
-                <li class="nav-item"><a href="./paginas/products.html" class="nav-link">Products</a></li>
-                <li class="nav-item"><a href="./paginas/videos.html" class="nav-link">Videos</a></li>
-                <li class="nav-item"><a href="/paginas/contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="./news.html" class="nav-link">News</a></li>
+                <li class="nav-item"><a href="./products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="./videos.html" class="nav-link">Videos</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link" id="activeLink">Contact</a></li>
             </ul>
         </header>
+
+        <!---------- FORM ---------->
         <div class="divContact">
             <form class="formContact" action="">
                 <label for="name">Name</label>
                 <input type="text" id="name">
                 <label for="email">Email</label>
                 <input type="text" id="email">
-                <textarea name="message" placeholder="Enter text here" id="" cols="60" rows="10"></textarea>
+                <textarea name="message" placeholder="Enter text here" id="textarea" cols="60" rows="10"></textarea>
                 <div class="buttonsContact">
-                <input type="submit">
-                <input type="reset">
-            </div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
             </form>
         </div>
 
@@ -59,15 +60,15 @@
             <div class="socialNetworks">
                 <a href="https://www.facebook.com/RolandLatinAmerica" target="_blank"><svg
                         xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
-                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                     </svg>
                 </a>
                 <a href="https://twitter.com/roland_vdrums" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path
                             d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
@@ -75,8 +76,8 @@
                 </a>
                 <a href="https://www.instagram.com/rolandglobal/?hl=es" target="_blank"><svg
                         xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
-                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <rect x="4" y="4" width="16" height="16" rx="4" />
                         <circle cx="12" cy="12" r="3" />
