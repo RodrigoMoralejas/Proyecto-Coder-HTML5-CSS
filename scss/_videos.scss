@@ -29,3 +29,10 @@
 .containerVideos iframe {
     border-radius: 10px;
 }
+
+@media (max-width: 1200px){
+    .containerVideos {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
