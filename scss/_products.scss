@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.cardProduct a:hover {
+    background-color: $colorSecundario;
+}
+
 .cardProduct img {
     width: 300px;
 }

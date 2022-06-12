@@ -239,6 +239,9 @@ footer {
   justify-content: center;
   align-items: center; }
 
+.cardProduct a:hover {
+  background-color: #eb5e28; }
+
 .cardProduct img {
   width: 300px; }
 
