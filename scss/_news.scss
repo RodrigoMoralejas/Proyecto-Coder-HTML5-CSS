@@ -5,6 +5,8 @@
     font-size: 3rem;
     font-weight: bold;
     margin: 2rem;
+    color: $colorSecundario;
+    -webkit-text-stroke: 0.5px $colorPrincipal;
 }
 
 .imgNews{

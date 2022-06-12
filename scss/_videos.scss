@@ -3,12 +3,13 @@
 .linkYoutube {
     margin-top: 2rem;
     color: $colorSecundario;
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    -webkit-text-stroke: 1.5px $colorPrincipal;
 }
 
 .linkYoutube:hover {

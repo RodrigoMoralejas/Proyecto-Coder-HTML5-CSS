@@ -38,6 +38,7 @@ body {
 
 
 #activeLink {
+    padding: 7px 9px;
     color: whitesmoke;
     background-color: $colorSecundario;
 }
@@ -52,13 +53,24 @@ body {
     height: 90vh;
 }
 
+.titleMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: $colorSecundario;
+    -webkit-text-stroke: 0.5px $colorPrincipal;
+}
+
 .textMain {
     padding: 2rem
 }
 
 .textMain p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     margin: 2rem;
 }
