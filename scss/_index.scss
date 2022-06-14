@@ -160,7 +160,7 @@ footer {
 }
 
 .elementsFooter {
-    padding-top: 4rem;
+    padding-top: 3rem;
     height: 8rem;
     display: flex;
     justify-content: space-evenly;
@@ -169,13 +169,13 @@ footer {
 }
 
 .elementsFooter a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $colorSecundario;
     text-decoration: none;
 }
 
 .socialNetworks {
-    margin: 3rem;
+    margin: 1rem;
     color: $colorSecundario;
     display: flex;
     justify-content: center;
@@ -188,9 +188,20 @@ footer {
     margin: 0 0.5rem;
 }
 
+.lineDivFooter hr {
+    border: 1px solid $colorSecundario;
+}
+
 .copyRight {
+    padding-top: 1.5rem;
     font-weight: bold;
     color: $colorSecundario;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .navBar {
+        
+    }
 }
