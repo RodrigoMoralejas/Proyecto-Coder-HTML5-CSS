@@ -9,7 +9,8 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .navBar {
-  background-color: #252422; }
+  background-color: #252422;
+  border-bottom: 0.5px solid #eb5e28; }
 
 .spanHome {
   text-align: center;
@@ -126,7 +127,8 @@ body {
 
 /********** FOOTER **********/
 footer {
-  height: 40vh;
+  height: fit-content;
+  padding-bottom: 2.5rem;
   line-height: 0;
   background-color: #252422; }
 
@@ -136,7 +138,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
 
 .elementsFooter a {
   font-size: 1rem;
@@ -159,11 +162,16 @@ footer {
   border: 1px solid #eb5e28; }
 
 .copyRight {
+  margin-bottom: 0;
   padding-top: 1.5rem;
   font-weight: bold;
   color: #eb5e28;
   display: flex;
   justify-content: center; }
+
+@media (max-width: 1200px) {
+  .sectionCards {
+    flex-wrap: wrap; } }
 
 /********** NEWS **********/
 .titleNews {
@@ -347,3 +355,7 @@ footer {
   background-color: gray;
   color: #fffcf2;
   border: 1px solid gray; }
+
+@media (max-width: 1300px) {
+  .divContact {
+    flex-wrap: wrap; } }

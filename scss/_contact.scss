@@ -12,6 +12,7 @@
     align-items: flex-start;
     flex-direction: column;
 }
+
 .formContact input {
     width: 100%;
 }
@@ -44,8 +45,20 @@
     color: $colorBody;
 }
 
-.buttonsContact input:nth-last-child(1){
-    background-color:gray;
+.buttonsContact input:nth-last-child(1) {
+    background-color: gray;
     color: $colorBody;
     border: 1px solid gray;
+}
+
+@media (max-width:1300px) {
+    .divContact {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:600px){
+   .divContact {
+   
+   } 
 }
