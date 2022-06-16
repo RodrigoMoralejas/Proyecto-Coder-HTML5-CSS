@@ -11,38 +11,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navBar {
+.navbar {
     background-color: $colorPrincipal;
-    border-bottom: 0.5px solid $colorSecundario;
+    padding: 1.2rem;
+    border-bottom: 2px solid $colorSecundario;
 }
 
-.spanHome {
-    text-align: center;
-    padding: 2px 15px 2px 15px;
-    border-radius: 10px;
-    background-color: $colorSecundario;
-    margin-left: 2rem;
+.navbar-brand {
     color: $colorBody;
+    font-size: 2.5rem;
+    background-color: $colorSecundario;
+    border-radius: 10px;
+    padding: 0 1rem;
 }
 
-.nav {
-    padding-right: 2rem;
+.collapse {
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
-.nav-item a {
+.collapse a {
+    text-decoration: none;
+    font-size: 1.2rem;
     color: $colorSecundario;
 }
 
-.nav-item a:hover {
-    color: $colorBody;
-}
-
-
-#activeLink {
-    padding: 7px 9px;
-    color: whitesmoke;
-    background-color: $colorSecundario;
-}
 
 /********** MAIN **********/
 .carousel-inner img {
@@ -51,7 +45,7 @@ body {
 }
 
 .carousel-item {
-    height: 90vh;
+    height: 87vh;
 }
 
 .titleMain {

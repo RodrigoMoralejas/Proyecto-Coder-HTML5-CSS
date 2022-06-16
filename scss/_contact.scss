@@ -6,6 +6,8 @@
 }
 
 .formContact {
+    width: 80%;
+    max-width: 505px;
     margin: 2rem;
     display: flex;
     justify-content: center;
@@ -22,6 +24,7 @@
 }
 
 .formContact textarea {
+    width: 100%;
     margin-top: 2rem;
     padding-left: 0.3rem;
 }
@@ -55,10 +58,11 @@
     .divContact {
         flex-wrap: wrap;
     }
-}
-
-@media (max-width:600px){
-   .divContact {
-   
-   } 
+    
+    .divContact iframe {
+        width: 90%;
+        max-width: 505px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
 }
