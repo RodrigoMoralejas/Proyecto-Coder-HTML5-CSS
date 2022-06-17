@@ -17,26 +17,29 @@ body {
     border-bottom: 2px solid $colorSecundario;
 }
 
-.navbar-brand {
+.navbarLogo {
     color: $colorBody;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     background-color: $colorSecundario;
     border-radius: 10px;
-    padding: 0 1rem;
+    padding: 0 0.8rem;
 }
 
-.collapse {
+.elementsNav {
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.collapse a {
+.elementsNav a {
     text-decoration: none;
     font-size: 1.2rem;
     color: $colorSecundario;
 }
 
+.itemAct {
+    color: $colorBody;
+}
 
 /********** MAIN **********/
 .carousel-inner img {
@@ -45,7 +48,7 @@ body {
 }
 
 .carousel-item {
-    height: 87vh;
+    height: 88vh;
 }
 
 .titleMain {

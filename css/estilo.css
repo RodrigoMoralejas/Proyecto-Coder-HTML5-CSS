@@ -13,22 +13,25 @@ body {
   padding: 1.2rem;
   border-bottom: 2px solid #eb5e28; }
 
-.navbar-brand {
+.navbarLogo {
   color: #fffcf2;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   background-color: #eb5e28;
   border-radius: 10px;
-  padding: 0 1rem; }
+  padding: 0 0.8rem; }
 
-.collapse {
+.elementsNav {
   display: flex;
   justify-content: end;
   align-items: center; }
 
-.collapse a {
+.elementsNav a {
   text-decoration: none;
   font-size: 1.2rem;
   color: #eb5e28; }
+
+.itemAct {
+  color: #fffcf2; }
 
 /********** MAIN **********/
 .carousel-inner img {
@@ -36,7 +39,7 @@ body {
   height: 100%; }
 
 .carousel-item {
-  height: 87vh; }
+  height: 88vh; }
 
 .titleMain {
   display: flex;
@@ -302,7 +305,7 @@ footer {
 .containerVideos iframe {
   border-radius: 10px; }
 
-@media (max-width: 1300px) {
+@media (max-width: 1450px) {
   .containerVideos {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
