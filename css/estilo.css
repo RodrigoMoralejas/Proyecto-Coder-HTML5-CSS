@@ -170,7 +170,9 @@ footer {
 
 @media (max-width: 1200px) {
   .sectionCards {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .carousel-inner img {
+    object-fit: contain; } }
 
 /********** NEWS **********/
 .titleNews {
@@ -228,6 +230,17 @@ footer {
   display: flex;
   flex-direction: column; }
 
+@media (max-width: 1000px) {
+  .infoOne {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem; }
+  .infoTwo {
+    display: flex;
+    flex-direction: column; }
+  .imgSection {
+    width: 80%; } }
+
 /********** PRODUCTS **********/
 .containerProducts {
   padding: 4rem;
@@ -258,7 +271,7 @@ footer {
   height: 170px;
   width: 300px;
   position: relative;
-  border-radius: 2px;
+  border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
   display: flex;
@@ -266,7 +279,7 @@ footer {
   align-items: center; }
 
 .cardProduct img {
-  width: 300px;
+  width: 320px;
   object-fit: cover; }
 
 .cardProduct h4 {
@@ -277,6 +290,13 @@ footer {
   text-align: center;
   font-weight: bold;
   z-index: 10; }
+
+@media (max-width: 1000px) {
+  .containerProducts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem; } }
 
 /********** VIDEOS **********/
 .linkYoutube {

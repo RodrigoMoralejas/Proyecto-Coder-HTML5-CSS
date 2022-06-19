@@ -66,3 +66,20 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 1000px) {
+    .infoOne {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .infoTwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgSection {
+        width: 80%;
+    }
+}

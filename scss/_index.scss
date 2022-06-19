@@ -205,4 +205,8 @@ footer {
     .sectionCards {
         flex-wrap: wrap;
     }
+
+    .carousel-inner img {
+        object-fit: contain;
+    }
 }
