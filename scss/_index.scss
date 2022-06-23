@@ -12,9 +12,10 @@ body {
 }
 
 .navbar {
+    width: auto;
     background-color: $colorPrincipal;
     padding: 1.2rem;
-    border-bottom: 2px solid $colorSecundario;
+    border-bottom: 2.5px solid $colorSecundario;
 }
 
 .navbarLogo {
@@ -23,6 +24,10 @@ body {
     background-color: $colorSecundario;
     border-radius: 10px;
     padding: 0 0.8rem;
+}
+
+.navbarLogo:hover {
+    color: $colorBody;
 }
 
 .elementsNav {
@@ -37,18 +42,33 @@ body {
     color: $colorSecundario;
 }
 
-.itemAct {
+.elementsNav a:hover {
+    color: $colorBody;
+}
+
+#itemAct {
     color: $colorBody;
 }
 
 /********** MAIN **********/
-.carousel-inner img {
-    object-fit: cover;
+.contImg img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .carousel-item {
+    width: 100%;
     height: 88vh;
+}
+
+.contImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titleMain {
@@ -63,14 +83,14 @@ body {
 }
 
 .textMain {
-    padding: 2rem
+    padding: 1rem
 }
 
 .textMain p {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bolder;
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 .lineDiv {
@@ -94,8 +114,8 @@ body {
 }
 
 .cardBody {
-    height: 350x;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -106,7 +126,8 @@ body {
     border-radius: 10px;
     overflow: hidden;
     height: 200px;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
 }
 
 .topCard img {
@@ -116,8 +137,9 @@ body {
 }
 
 .botCard {
-    height: 270px;
-    width: 380px;
+    min-height: 250px;
+    width: 100%;
+    max-width: 380px;
 }
 
 .botCard h5 {
@@ -201,12 +223,33 @@ footer {
     justify-content: center;
 }
 
+@media (max-width: 500px) {
+    .titleMain {
+        font-size: 2.5rem;
+    }
+
+    .textMain p {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .sectionCards {
         flex-wrap: wrap;
-    }
+    }     
+}
 
-    .carousel-inner img {
-        object-fit: contain;
+@media (max-width: 400px) {
+    .sectionCards {
+        padding: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    .elementsFooter {
+        flex-direction: column;
+    }
+    .elementsFooter li {
+        margin-bottom: 1.5rem;
     }
 }

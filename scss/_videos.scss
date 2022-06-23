@@ -36,4 +36,24 @@
         grid-template-rows: auto;
         flex-direction: column;
     }
+    .containerVideos iframe {
+        width: 90%;
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 600px) {
+    .linkYoutube {
+        font-size: 1.5rem;
+    }
+    .linkYoutube svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .linkYoutube {
+        font-size: 1.3rem;
+    }
 }

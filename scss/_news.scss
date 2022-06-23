@@ -20,12 +20,14 @@
 }
 
 .textNews {
+    padding: 0 5%;
     font-weight: 400;
     font-size: 1.5rem;
     text-align: center;
 }
 
 .videoNews {
+    width: 100%;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -68,6 +70,9 @@
 }
 
 @media (max-width: 1000px) {
+    .sectionInfo{
+        margin-top: 0;
+    }
     .infoOne {
         display: flex;
         flex-direction: column;
@@ -76,10 +81,19 @@
 
     .infoTwo {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-bottom: 3.5rem;
     }
 
     .imgSection {
-        width: 80%;
+        width: 90%;
+    }
+
+    .videoNews {
+        padding: 1.5rem 5%;
+    }
+    .videoNews iframe {
+        width: 95%;
+        padding: 0;
     }
 }
