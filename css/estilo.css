@@ -306,7 +306,8 @@ footer {
   content: "";
   top: 0;
   left: 0;
-  transition: all 500ms ease-out; }
+  transition: all 500ms ease-out;
+  border-radius: 4px; }
 
 .containerProducts a:hover::after {
   background-color: #eb5f28a9; }
